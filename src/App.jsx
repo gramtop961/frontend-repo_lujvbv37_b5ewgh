@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import IntroAndCredibility from './components/IntroAndCredibility'
 import Integrations from './components/Integrations'
+import WhatsAppCyberSection from './components/WhatsAppCyberSection'
+import Products from './components/Products'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <main>
         <Hero />
         <IntroAndCredibility />
+        <WhatsAppCyberSection />
+        <Products />
         <Integrations />
       </main>
       <footer className="border-t border-white/10 bg-black/90 py-10">
